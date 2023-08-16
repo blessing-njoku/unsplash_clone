@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    width: 50%;
+    height: 20px;
+}
+
+.MyDiv{
+    background-image:url(./img/wallpaper2.jpg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    height: 900px;
+    width: 100%;
+}
+p{
+    color: whitesmoke;
+    font-size: 30px;
+}
+h1{
+    font-weight: 90rem;
+    color: whitesmoke;
+}
+input search{
+    position: absolute;
+    margin-right: 20px;
+}
+
+.nav ul{
+    display: flex;
+    text-decoration: none;
+    margin-left: 50px;
+    list-style: none;
+}
+.list1 ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.img{
+    position: absolute;
+    width: 99vw;
+    height: 700px;
+}
